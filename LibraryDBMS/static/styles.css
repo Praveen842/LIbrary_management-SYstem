@@ -1,0 +1,51 @@
+/* Default Background for All Pages */
+body {
+    background-color: #D2B48C;  /* Light brown background for all pages */
+    background-image: url("/static/library.jpg"); /* Default background image */
+    background-size: cover; /* Make background image cover the entire page */
+    background-position: center center;
+    background-attachment: fixed;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Specific Background for Home Page */
+.home-page {
+    background-image: url("/static/home-bg.jpg"); /* Specific background for Home page */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;  /* Ensure it covers the entire height */
+}
+
+/* Specific Background for Book List Page */
+.book-list-page {
+    background-image: url("/static/book-list-bg.jpg"); /* Specific background for Book List page */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;  /* Ensure it covers the entire height */
+}
+
+/* Specific Background for Borrower List Page */
+.borrower-list-page {
+    background-image: url("/static/borrower-list-bg.jpg"); /* Specific background for Borrower List page */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;  /* Ensure it covers the entire height */
+}
+
+/* Navbar Styling */
+.navbar {
+    z-index: 1000; /* Keep navbar above background */
+}
+
+/* Content Section Styling */
+.container {
+    background: rgba(184, 164, 164, 0.808); /* Slightly transparent background to make text more readable */
+    padding: 20px;
+    border-radius: 8px;
+}
